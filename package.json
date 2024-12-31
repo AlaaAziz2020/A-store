@@ -1,0 +1,55 @@
+{
+  "name": "hamzastore",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.7.1",
+    "@reduxjs/toolkit": "^2.4.0",
+    "bootstrap": "^5.3.3",
+    "concurrently": "^6.2.0",
+    "express": "^4.17.1",
+    "flowbite-react": "^0.10.2",
+    "formik": "^2.4.6",
+    "json-server": "^1.0.0-beta.2",
+    "mdb-react-ui-kit": "^9.0.0",
+    "react-bootstrap": "^2.10.6",
+    "react-hot-toast": "^2.4.1",
+    "react-loader-spinner": "^6.1.6",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^7.0.1",
+    "react-slick": "^0.30.3",
+    "redux": "^5.0.1",
+    "slick-carousel": "^1.8.1",
+    "yup": "^1.4.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "clean": "rimraf node_modules build",
+    "start:backend": "node server.js",
+    "start:json-server": "json-server --watch db.json --port 5001",
+    "start:all": "concurrently \"npm run start:backend\" \"npm run start:json-server\""
+  },
+  "token": "your_generated_jwt_token",
+  "user": {
+    "id": 1,
+    "email": "user@example.com"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "rimraf": "^6.0.1"
+  }
+}

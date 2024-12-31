@@ -1,0 +1,31 @@
+.Info-sec {
+    background-image:  linear-gradient(rgba(5, 5, 11, 0.28), rgba(20, 17, 17, 0.5)),  
+    url('https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-size: cover;
+    height: 354px;
+}
+
+.Info-sec p{
+    color: #efe4e4;
+
+}
+.Info-sec .purshe{
+    padding-top: 1px;
+    padding-bottom: 10px;
+    padding-right: 37px;
+}
+.Info-sec .purshe:hover{
+transition: all 1s ease-out; 
+transform: scale(1.05);
+
+}
+.Info-sec a{
+    background: #2c579e;
+    padding: 13px;
+    border-radius: 6px;
+}
+.Info-sec a:hover{
+    background: #fff;
+    color:#2c579e;
+    /* transition: all 0.9s; */
+}

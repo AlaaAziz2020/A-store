@@ -1,0 +1,110 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Arial", sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  /* Cart Table Section */
+  .cart-table {
+    background-color: #f8f9fa;
+    padding: 30px 0;
+  }
+  
+  /* Card Styling */
+  .card-registration {
+    border: none;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .card-registration:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .MDBCardBody {
+    padding: 20px;
+  }
+  
+  /* Product Image */
+  .MDBCardImage {
+    width: 100%;
+    height: auto;
+    max-width: 120px;
+    border-radius: 5px;
+    object-fit: cover;
+  }
+  
+  /* Product Name */
+  h6 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    margin: 0;
+  }
+  
+  /* Buttons and Input */
+  .MDBCol.text-end {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+  }
+  
+  /* Remove Button */
+  /* button:last-child {
+    background-color: #dc3545;
+  } */
+  
+  /* button:last-child:hover {
+    background-color: #c82333;
+  } */
+  
+  /* Input Field */
+  input {
+    width: 50px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  /* Loading and Empty Cart Message */
+  p {
+    text-align: center;
+    font-size: 18px;
+    color: #777;
+    margin: 20px 0;
+  }
+  
