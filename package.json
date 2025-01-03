@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "homepage": "https://alaaaziz2020.github.io/A-store",
     "@fortawesome/fontawesome-free": "^6.7.1",
     "@reduxjs/toolkit": "^2.4.0",
     "bootstrap": "^5.3.3",
@@ -24,6 +25,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
@@ -50,6 +53,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "rimraf": "^6.0.1"
   }
 }
